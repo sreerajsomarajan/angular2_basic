@@ -1,0 +1,8 @@
+img.tweet-image {
+    border-radius: 10px;
+}
+
+h4.tweet-author span {
+    color: gray;
+    font-size: 16px;
+}

@@ -1,0 +1,14 @@
+<h2>Users</h2>
+<div *ngFor="let user of users; let i = index" class="media">
+    <div class="media-left">
+        <a href="#">
+            <img class="media-object tweet-image" src="http://lorempixel.com/100/100/people?{{ i }}" alt="User image">
+        </a>
+    </div>
+    <div class="media-body">
+        <h4 class="media-heading tweet-author">
+      <span>{{ user.id }}. {{ user.name }}</span>
+    </h4>
+        <p>{{ user.bio }}</p>
+    </div>
+</div>
