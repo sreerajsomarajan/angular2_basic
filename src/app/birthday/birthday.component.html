@@ -1,0 +1,21 @@
+<div class="section-wrapper">
+    <div class="birthday-wrapper">
+        <div class="birthday-heading-wrapper">
+            <div class="birthday-heading">Today's Birthdays</div>
+            <div class="birthday-date">{{ today | date: 'longDate' }}</div>
+        </div>
+        <ul class="birthday-details-list">
+            <li *ngFor="let user of users; let i = index" class="media">
+                <div>
+                    <img class="media-object user-image" src="http://lorempixel.com/100/100/people?{{ i }}" alt="User image">
+                    <div class="user-details">
+                        <div class="user-name">{{ user.name }}</div>
+                        <div class="user-timeline">You wrote on {{ user.name }}'s Timeline.</div>
+                        <div class="user-view">View Friendship</div>
+                    </div>
+                    <div class="user-age">{{ user.age }} Years old</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

@@ -6,3 +6,30 @@ h4.tweet-author span {
     color: gray;
     font-size: 16px;
 }
+.section-wrapper {
+	background-color: #CCCCCC;
+    padding: 0px 20px;
+}
+.user-wrapper {
+    background-color: #EAEBEF;
+    padding: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.user-heading-wrapper, .details-wrapper {
+    background-color: #fff;
+    border: solid 1px #d6d1d1;
+    padding: 10px;
+    list-style: none;
+}
+.user-heading-wrapper {
+    border-bottom: 0px !important;
+}
+.user-heading {
+	font-size: 16px;
+    font-weight: 900;
+}
+.user-name {
+    color: #4B5289;
+    font-weight: 900;
+}
