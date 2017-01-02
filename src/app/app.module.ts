@@ -14,7 +14,8 @@ import { UserDetailComponent } from './user/user-detail.component';
 // Routing
 import { appRouting } from './app.routing'
 import { userRouting }   from './user/user.routing';
-import { NavbarComponent } from './navbar/navbar.component'
+import { NavbarComponent } from './navbar/navbar.component';
+import { ProfileComponent } from './profile/profile.component'
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { NavbarComponent } from './navbar/navbar.component'
     UserComponent,
     BirthdayComponent,
     UserDetailComponent,
-    NavbarComponent
+    NavbarComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
