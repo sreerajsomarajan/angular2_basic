@@ -14,8 +14,12 @@ import { UserDetailComponent } from './user/user-detail.component';
 // Routing
 import { appRouting } from './app.routing'
 import { userRouting }   from './user/user.routing';
+import { profileRouting }   from './profile/profile.routing';
 import { NavbarComponent } from './navbar/navbar.component';
-import { ProfileComponent } from './profile/profile.component'
+import { ProfileComponent } from './profile/profile.component';
+import { PersonalInformationComponent } from './personal-information/personal-information.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { NotificationSettingsComponent } from './notification-settings/notification-settings.component'
 
 @NgModule({
   declarations: [
@@ -25,13 +29,17 @@ import { ProfileComponent } from './profile/profile.component'
     BirthdayComponent,
     UserDetailComponent,
     NavbarComponent,
-    ProfileComponent
+    ProfileComponent,
+    PersonalInformationComponent,
+    AccountSettingsComponent,
+    NotificationSettingsComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
     userRouting,
+    profileRouting,
     appRouting
   ],
   providers: [Title],

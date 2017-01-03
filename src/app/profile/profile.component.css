@@ -1,13 +1,7 @@
 div.cover-body {
-  border-left: 1px solid #e9eaed;
   background-color: #EAEBEF;
   width: 50%;
   margin: 0 auto;
-}
-
-div.cover-pic {
-  border-left: 1px #D3D6DB;
-  border-right: 1px #d3d6dB;
 }
 
 div.cover-pic img {
@@ -15,34 +9,32 @@ div.cover-pic img {
 }
 
 div.profile-menu {
-  border-left: 1px solid #e9eaed;
-  background-color: #EAEBEF;
+  border-right: 1px solid #D3D6DB;
   margin: 0 auto;
-  border: 1px solid #D3D6DB;
-  height: 44px;
-  border-radius: 0 0 5px 5px;
+  background-color: #fff;
+  width: 100%;
+  float: left;
+  border-left: 1px solid #D3D6DB;
 }
 
 .profile-menu ul {
-  float: left;
-  margin: 0 auto;
-  width: 100%;
   padding-left: 0;
-  border-radius: 0 0 5px 5px;
+  width: 100%;
+  border-bottom: 1px solid #EAEBEF;
   background-color: #fff;
 }
 
 .profile-menu ul li {
-  display: table-cell;
   line-height: 3.05;
   vertical-align: middle;
   white-space: nowrap;
-  border-right: 1px solid #EAEBEF;
-  float: left;
+  border-left: 1px solid #EAEBEF;
+  float: right;
   font-size: 14px;
   font-weight: bold;
-  padding: 0 2%;
+  padding: 0 4%;
   color: #1d2129;
+  list-style-type: none;
 }
 
 .profile-menu ul li a:hover {
